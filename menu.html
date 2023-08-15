@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <meta name="title" content="NATE'S KITCHEN">
+  <meta name="description" content="This is a RESTAURANT html template">
+
+  <!-- favicon link -->
+  <link rel="shortcut icon" href="assets/images/1692024318072.png" type="image/svg+xml">
+
+  <!-- link to google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+ <!-- css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+ <!-- images preloaded -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- top bar -->
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+            <a href="google.com">
+          Nate's Kitchen, Imaara Mall, Imara Daima, Nairobi</a>
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 8.00 pm</span>
+      </div>
+
+      <a href="tel:+254 707 654 388" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+254 707 694 388</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@nateskitchen.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/1692024318072.png" width="160" height="50" alt="Nate's Kitchen">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/1692024318072.png" width="150" height="150" alt="Nate's Kitchen">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Nate's Kitchen, Imaara Mall, <br>
+            Imara Daima, Nairobi
+          </address>
+
+          <p class="body-4 navbar-text">Open: 8.00am - 8.00pm</p>
+
+          <a href="mailto:booking@natekskitchen.com" class="body-4 sidebar-link">booking@nateskitchen.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+254 707 694 388" class="body-1 contact-number hover-underline">
+            +254 707 694 388
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">BOOK A TABLE</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  
+ 
+    <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+    
+          <p class="section-subtitle text-center label-2" style="margin-top: 120px;">Nate's kitchen delicacies</p>
+    
+          <h2 class="headline-1 section-title text-center">Full Menu</h2>
+    
+          <ul class="grid-list">
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Kenyan Salad</a>
+                    </h3>
+    
+                    <span class="badge label-1">Seasonal</span>
+    
+                    <span class="span title-2">Ksh 1,500</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber, onion, olives, kale and feta cheese.
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagne</a>
+                    </h3>
+    
+                    <span class="span title-2">Ksh 2,000</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Butternut Pumpkin Rice</a>
+                    </h3>
+    
+                    <span class="span title-2">Ksh 1,700</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+    
+                    <span class="badge label-1">Foreign</span>
+    
+                    <span class="span title-2">Ksh 2,900</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+    
+                    <span class="span title-2">Ksh 2,500</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="menu-card hover:card">
+    
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+    
+                <div>
+    
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Opu Fish</a>
+                    </h3>
+    
+                    <span class="span title-2">Ksh 3,200</span>
+                  </div>
+    
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+          </ul>
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+        <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-3 move-anim">
+
+        </div>
+  </section>    
+
+  <!-- menu above -->
+  
+  <section class="section event bg-black-10" aria-label="event">
+    <div class="container">
+
+      <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+      <h2 class="section-title headline-1 text-center">Upcoming Events</h2>
+
+      <ul class="grid-list">
+
+        <li>
+          <div class="event-card has-before hover:shine">
+
+            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+              <time class="publish-date label-2" datetime="2024-09-15">15/09/2024</time>
+            </div>
+
+            <div class="card-content">
+              <p class="card-subtitle label-2 text-center">Flavour Fest</p>
+
+              <h3 class="card-title title-2 text-center">
+                Flavour so good you’ll try to eat with your eyes!
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="event-card has-before hover:shine">
+
+            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+              <time class="publish-date label-2" datetime="2024-10-08">08/10/2024</time>
+            </div>
+
+            <div class="card-content">
+              <p class="card-subtitle label-2 text-center">Health week</p>
+
+              <h3 class="card-title title-2 text-center">
+                Add goodness to your body.
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="event-card has-before hover:shine">
+
+            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+              <time class="publish-date label-2" datetime="2024-11-03">03/11/2024</time>
+            </div>
+
+            <div class="card-content">
+              <p class="card-subtitle label-2 text-center">CUSTOM DISH</p>
+
+              <h3 class="card-title title-2 text-center">
+                Be the chef and explore delicious creativity!
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <a href="#" class="btn btn-primary">
+        <span class="text text-1">View Our Blog</span>
+
+        <span class="text text-2" aria-hidden="true">View Our Blog</span>
+      </a>
+
+    </div>
+  </section>
+
+</article>
+</main>
+
+<!-- footer -->
+<footer class="footer section has-bg-image text-center"
+style="background-image: url('./assets/images/footer-bg.jpg')">
+<div class="container">
+
+  <div class="footer-top grid-list">
+
+    <div class="footer-brand has-before has-after">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/1692024318072.png" width="160" height="50" loading="lazy" alt="grilli home">
+      </a>
+
+      <address class="body-4">
+        Nate's Kitchen, Imaara Mall, Imara Daima, Nairobi
+      </address>
+
+      <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@nateskitchen.com</a>
+
+      <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +254 707 694 388</a>
+
+      <p class="body-4">
+        Open : 08:00 am - 08:00 pm
+      </p>
+
+      <div class="wrapper">
+        <div class="separator"></div>
+        <div class="separator"></div>
+        <div class="separator"></div>
+      </div>
+
+      <p class="title-1">Get News & Offers</p>
+
+      <p class="label-1">
+        Subscribe to Nate's Kitchen & Get <span class="span">25% Off.</span>
+      </p>
+
+      <form action="" class="input-wrapper">
+        <div class="icon-wrapper">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+          <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+        </div>
+
+        <button type="submit" class="btn btn-secondary">
+          <span class="text text-1">Subscribe</span>
+
+          <span class="text text-2" aria-hidden="true">Subscribe</span>
+        </button>
+      </form>
+
+    </div>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Home</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Contact Us</a>
+      </li>
+
+    </ul>
+
+    <ul class="footer-list">
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <p class="copyright">
+      &copy; 2023 Nate's Kitchen. All Rights Reserved | Crafted by <a href="https://github.com/teegash"
+        target="_blank" class="link">teegash</a>
+    </p>
+
+  </div>
+
+</div>
+</footer>
+   
+
+
+
+  
+
+ <!-- back to top button -->
+ <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ion icon links -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+</html>
