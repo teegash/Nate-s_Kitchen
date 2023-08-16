@@ -2,11 +2,7 @@
 
 
 
-/**
- * PRELOAD
- * 
- * loading will be end after document is loaded
- */
+/*Preloading will end after page is fully loaded*/
 
 const preloader = document.querySelector("[data-preaload]");
 
@@ -17,9 +13,7 @@ window.addEventListener("load", function () {
 
 
 
-/**
- * add event listener on multiple elements
- */
+/*add event listener on multiple elements*/
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -29,9 +23,7 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
-/**
- * NAVBAR
- */
+/*NAVBAR*/
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -47,9 +39,7 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
 
-/**
- * HEADER & BACK TOP BTN
- */
+/*HEADER & BACK TOP BTN*/
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -80,9 +70,7 @@ window.addEventListener("scroll", function () {
 
 
 
-/**
- * HERO SLIDER
- */
+/*HERO SLIDER*/
 
 const heroSlider = document.querySelector("[data-hero-slider]");
 const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
@@ -122,9 +110,7 @@ const slidePrev = function () {
 
 heroSliderPrevBtn.addEventListener("click", slidePrev);
 
-/**
- * auto slide
- */
+/*auto slide*/
 
 let autoSlideInterval;
 
@@ -144,9 +130,7 @@ window.addEventListener("load", autoSlide);
 
 
 
-/**
- * PARALLAX EFFECT
- */
+/*PARALLAX EFFECT*/
 
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 

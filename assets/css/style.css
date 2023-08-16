@@ -1424,21 +1424,15 @@ textarea.input-field {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
-/**
- * responsive for larger than 575px screen
- */
+/* responsive for larger than 575px screen */
 
 @media (min-width: 575px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /*CUSTOM PROPERTY*/
 
   :root {
 
-    /**
-     * typography
-     */
+    /*typography*/
 
     --fontSize-body-2: 2rem;
 
@@ -1446,9 +1440,7 @@ textarea.input-field {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /*REUSED STYLE*/
 
   :is(.service, .about) .section-text {
     max-width: 420px;
@@ -1459,9 +1451,7 @@ textarea.input-field {
 
 
 
-  /**
-   * TOPBAR
-   */
+  /*TOPBAR*/
 
   .topbar {
     display: block;
@@ -1503,9 +1493,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HEADER
-   */
+  /*HEADER*/
 
   .header { top: 51px; }
 
@@ -1518,17 +1506,13 @@ textarea.input-field {
 
 
 
-  /**
-   * HERO
-   */
+  /*HERO*/
 
   .hero-btn { transform: scale(0.7); }
 
 
 
-  /**
-   * SERVICE
-   */
+  /*SERVICE*/
 
   .service .container {
     max-width: 420px;
@@ -1537,9 +1521,7 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
+  /*ABOUT*/
 
   .about .container { gap: 80px; }
 
@@ -1551,9 +1533,7 @@ textarea.input-field {
 
 
 
-  /**
-   * MENU
-   */
+  /*MENU*/
 
   .menu-card .title-wrapper {
     display: flex;
@@ -1581,9 +1561,7 @@ textarea.input-field {
 
 
 
-  /**
-   * EVENT
-   */
+  /*EVENT*/
 
   .event .container {
     max-width: 420px;
@@ -1592,9 +1570,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FOOTER
-   */
+  /*FOOTER*/
 
   .footer-brand > * {
     max-width: 460px;
@@ -1622,15 +1598,11 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 768px screen
- */
+/*responsive for larger than 768px screen*/
 
 @media (min-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /*REUSED STYLE*/
 
   .grid-list { grid-template-columns: 1fr 1fr; }
 
@@ -1644,17 +1616,13 @@ textarea.input-field {
 
 
 
-  /**
-   * HEADER
-   */
+  /*HEADER*/
 
   .navbar-list { margin-inline: 30px; }
 
 
 
-  /**
-   * HERO
-   */
+  /*HERO*/
 
   .hero .slider-btn {
     display: grid;
@@ -1684,9 +1652,7 @@ textarea.input-field {
 
 
 
-  /**
-   * RESERVATION
-   */
+  /*RESERVATION*/
 
   .reservation .input-wrapper {
     display: grid;
@@ -1700,9 +1666,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FOOTER
-   */
+  /*FOOTER*/
 
   .footer-brand { grid-column: 1 / 3; }
 
@@ -1712,21 +1676,15 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 992px screen
- */
+/*responsive for larger than 992px screen*/
 
 @media (min-width: 992px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /*CUSTOM PROPERTY*/
 
   :root {
 
-    /**
-     * spacing
-     */
+    /*spacing*/
 
     --section-space: 100px;
 
@@ -1734,9 +1692,7 @@ textarea.input-field {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /*REUSED STYLE*/
 
   :is(.service, .event) .container { max-width: unset; }
 
@@ -1749,9 +1705,7 @@ textarea.input-field {
 
 
 
-  /**
-   * TOPBAR
-   */
+  /*TOPBAR*/
 
   .topbar-item:not(.link) { display: flex; }
 
@@ -1759,9 +1713,7 @@ textarea.input-field {
 
 
 
-  /**
-   * SERVICE
-   */
+  /*SERVICE*/
 
   .service .shape { display: block; }
 
@@ -1777,9 +1729,7 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
+  /*ABOUT*/
 
   .about .container {
     grid-template-columns: 0.7fr 1fr;
@@ -1788,9 +1738,7 @@ textarea.input-field {
 
 
 
-  /**
-   * SPECIAL DISH
-   */
+  /*SPECIAL DISH*/
 
   .special-dish {
     display: grid;
@@ -1816,9 +1764,7 @@ textarea.input-field {
 
 
 
-  /**
-   * MENU
-   */
+  /*MENU*/
 
   .menu .grid-list {
     position: relative;
@@ -1836,9 +1782,7 @@ textarea.input-field {
 
 
 
-  /**
-   * TESTIMONIALS
-   */
+  /*TESTIMONIALS*/
 
   .testi-text {
     max-width: 910px;
@@ -1847,9 +1791,7 @@ textarea.input-field {
 
 
 
-  /**
-   * RESERVATION
-   */
+  /*RESERVATION*/
 
   .reservation-form {
     display: grid;
@@ -1858,9 +1800,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FOOTER
-   */
+  /*FOOTER*/
 
   .footer .grid-list {
     grid-template-columns: 0.45fr 1fr 0.45fr;
@@ -1881,21 +1821,15 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
+/*responsive for larger than 1200px screen*/
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /*CUSTOM PROPERTY*/
 
   :root {
 
-    /**
-     * typography
-     */
+    /*typography*/
 
     --fontSize-title-2: 2.5rem;
 
@@ -1903,9 +1837,7 @@ textarea.input-field {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /*REUSED STYLE*/
 
   .container,
   :is(.service, .event) .container {
@@ -1916,9 +1848,7 @@ textarea.input-field {
 
 
 
-  /**
-   * TOPBAR
-   */
+  /*TOPBAR*/
 
   .topbar .container { max-width: unset; }
 
@@ -1926,9 +1856,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HEADER
-   */
+  /*HEADER*/
 
   .nav-open-btn,
   .navbar > *:not(.navbar-list),
@@ -1972,9 +1900,7 @@ textarea.input-field {
 
 
 
-  /**
-   * HERO
-   */
+  /*HERO*/
 
   .hero { height: 880px; }
 
@@ -1986,9 +1912,7 @@ textarea.input-field {
 
 
 
-  /**
-   * SERVICE
-   */
+  /*SERVICE*/
 
   .service .grid-list { gap: 150px; }
 
@@ -1998,17 +1922,13 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
+  /*ABOUT*/
 
   .about { padding-block: 170px 100px; }
 
 
 
-  /**
-   * SPECIAL DISH
-   */
+  /*SPECIAL DISH*/
 
   .special-dish-content {
     padding: 225px 120px;
@@ -2022,9 +1942,7 @@ textarea.input-field {
 
 
 
-  /**
-   * MENU
-   */
+  /*MENU*/
 
   .menu .grid-list {
     gap: 55px 200px;
@@ -2033,9 +1951,7 @@ textarea.input-field {
 
 
 
-  /**
-   * TESTIMONIALS
-   */
+  /*TESTIMONIALS*/
 
   .form-left,
   .form-right { padding: 75px 60px; }
@@ -2043,9 +1959,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FEATURES
-   */
+  /*FEATURES*/
 
   .features .grid-list { grid-template-columns: repeat(4, 1fr); }
 
@@ -2055,23 +1969,17 @@ textarea.input-field {
 
 
 
-/**
- * responsive for larger than 1400px screen
- */
+/*responsive for larger than 1400px screen*/
 
 @media (min-width: 1400px) {
 
-  /**
-   * HEADER
-   */
+  /*HEADER*/
 
   .navbar { margin-inline: auto; }
 
 
 
-  /**
-   * ABOUT
-   */
+  /*ABOUT*/
 
   .about-content { padding-inline-end: 90px; }
 
@@ -2083,9 +1991,7 @@ textarea.input-field {
 
 
 
-  /**
-   * SPECIAL DISH
-   */
+  /*SPECIAL DISH*/
 
   .special-dish {
     overflow: visible;
@@ -2108,9 +2014,7 @@ textarea.input-field {
 
 
 
-  /**
-   * FEATURES
-   */
+  /*FEATURES*/
 
   .features { overflow: visible; }
 
