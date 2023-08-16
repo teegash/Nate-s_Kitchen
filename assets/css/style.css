@@ -166,7 +166,7 @@ body {
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
- 
+  overflow: auto;
   height: 300vh;
 }
 
@@ -504,9 +504,8 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #PRELOAD
 \*-----------------------------------*/
-/* added overflow hidden last command to solve phone
- screen yellow popping line at the bottom */
- 
+
+
 .preload {
   position: fixed;
   top: 0;
@@ -519,7 +518,7 @@ body.nav-active { overflow: hidden; }
   place-content: center;
   justify-items: center;
   transition: var(--transition-2);
-  overflow: hidden;
+ 
 }
 
 .preload > * { transition: var(--transition-1); }
